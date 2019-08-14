@@ -1,0 +1,126 @@
+<HTML>
+<HEAD>
+<title>
+Jonathan Carroll University
+</title>
+</head>
+<body>
+<hr width = "100%" size="7" color="grey">
+<DIV ALIGN=CENTER>
+<img src="F:\Template-1\Reference Img/logo-170x172.png " alt="UNIVERSITY" align="CENTRE">
+<div align=center>University</div>
+</DIV>
+<div class="vertical-menu" align="center" width=100 hspace="5">
+
+	<a href="#" class="active">Home</a>
+	<a href="#"> Elements </a>
+	<a href="#"> Pages </a>
+	<a href="#"> News </a>
+	<a href="#"> Campus </a>
+	<a href="#"> shop </a>
+	<a href="#"> Donate </a>
+	<a href="#"> Contact </a>
+
+
+</div>
+
+<style type=text/css >
+igtransition{
+width:100px;
+height:100px;
+-webkit-transition: width 2s;
+transition:width 2s;
+display:img;
+
+}
+</style>
+
+<igtransition>
+<img src:"F:\Template-1\Reference Img\landing-1-550x420.jpg">
+<img src:"F:\Template-1\Reference Img\landing-2-550x420.jpg">
+
+</igtransition>
+
+
+<h1 align="Center"> Check Out Other Themes </h1>
+<hr width= "3%" size="2.7" align="center" color="Blue">
+
+<div align = "center " width="200%">
+<img src="F:\Template-1\Reference Img\landing-1-550x420.jpg" height="250" width="350">
+<img src="F:\Template-1\Reference Img\landing-2-550x420.jpg" height="250" width="350">
+<img src="F:\Template-1\Reference Img\landing-3-550x420.jpg" height="250" width="350">
+
+</div>
+<br>
+<br>
+<blockquote>
+<div width="200%" >
+
+<img src="F:\Template-1\Reference Img\landing-3.png" align="left" height="-1000" width="" style="float:left" sizes="25%">
+
+<H1> Home Layouts and Demos </h1>
+<hr width= "3%" size="2.7" align="left" color="Blue">
+<p> Choose from our wide range of predefined Homepage layouts and demos to create your Own Amazing Experience </p>
+<br><br>
+<br>
+<button name="Get Template" color="Red" value="Get Template"> Get Template </button>
+</div>
+</blockquote>
+<br>
+<br>
+<br>
+<br>
+
+
+<br>
+<br/>
+<section>
+
+<DIV  WIDTH="50%" ALIGN="CENTER">
+<div style="padding-left=0px">
+<h1>Extremely Responsive and Retina Ready </h1>
+<hr width= "3%" size="2.7" align="center" color="Blue">
+<p> Due to its responsiveness and Retina display support our template perfectly fits any modern device,from Pc to Smartphone </p>
+</div>
+
+<img src="F:\Template-1\Reference Img\landing-4.png" align="right" width = "45%" STYLE="padding:RIGHT" >
+<button name="Get Template" color="Red" value="Get Template"> Get Template </button>
+</DIV>
+</section>
+
+<section>
+<div align="center" >
+<h1> Social Integration</h1>
+<hr width= "3%" size="2.7" align="CENTER" color="Blue">
+<P>
+Get Instant feedback from your visitors with social widgets that are built in this template to provide the best possible user experience.
+</p>
+<img src="F:\Template-1\Reference Img\fb.png">
+<img src="F:\Template-1\Reference Img\twitter.png">
+<img src="F:\Template-1\Reference Img\google.png">
+<img src="F:\Template-1\Reference Img\ingstram.png">
+</div>
+</section>
+
+
+<div align="center">
+<img src="F:\Template-1\Reference Img\parallax-05.jpg" size="50% " height="400" width="900" style="object-fit:zoom" ALT= "CONTACTUS">
+
+
+
+
+<style type="text/css">
+vertical-menu{
+width=200px;
+font=timesnewroman;
+font-color=Red;
+overflow-y: auto;
+}
+</style>
+
+
+
+
+</BODY>
+</html>
+
