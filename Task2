@@ -1,8 +1,40 @@
 <HTML>
 <HEAD>
+<meta name="viewport" content="width=device-width">
 <title>
 Jonathan Carroll University
 </title>
+
+<style type=text/css >
+igtransition{
+width:100px;
+height:100px;
+-webkit-transition: width 2s;
+transition:width 2s;
+display:img;
+
+}
+a{
+size: 10px;
+color: black;
+background-color: blue;
+
+}
+button{
+background-color:#FF69B4;
+size:50px;
+border-style:none;
+}
+vertical-menu{
+width=200px;
+font=timesnewroman;
+font-color=Red;
+overflow-y: auto;
+}
+
+</style>
+
+
 </head>
 <body>
 <hr width = "100%" size="7" color="grey">
@@ -24,22 +56,21 @@ Jonathan Carroll University
 
 </div>
 
-<style type=text/css >
-igtransition{
-width:100px;
-height:100px;
--webkit-transition: width 2s;
-transition:width 2s;
-display:img;
-
-}
-</style>
 
 <igtransition>
 <img src:"F:\Template-1\Reference Img\landing-1-550x420.jpg">
 <img src:"F:\Template-1\Reference Img\landing-2-550x420.jpg">
 
 </igtransition>
+
+
+
+
+
+
+
+
+
 
 
 <h1 align="Center"> Check Out Other Themes </h1>
@@ -53,41 +84,43 @@ display:img;
 </div>
 <br>
 <br>
-<blockquote>
-<div width="200%" >
+<table>
+<tr>
+<td align="center">
 
-<img src="F:\Template-1\Reference Img\landing-3.png" align="left" height="-1000" width="" style="float:left" sizes="25%">
 
+<img src="F:\Template-1\Reference Img\landing-3.png" align="left"  size="50%">
+</td> <td align="center">
 <H1> Home Layouts and Demos </h1>
-<hr width= "3%" size="2.7" align="left" color="Blue">
+<hr width= "3%" size="2.7" align="center" color="Blue">
 <p> Choose from our wide range of predefined Homepage layouts and demos to create your Own Amazing Experience </p>
 <br><br>
 <br>
-<button name="Get Template" color="Red" value="Get Template"> Get Template </button>
-</div>
-</blockquote>
-<br>
-<br>
-<br>
-<br>
+<button name="Get Template"  value="Get Template"> Get Template </button>
+
+</tr>
+</td>
+</table>
+
 
 
 <br>
 <br/>
-<section>
+<table><tr>
 
-<DIV  WIDTH="50%" ALIGN="CENTER">
-<div style="padding-left=0px">
+<td align="center">
+
 <h1>Extremely Responsive and Retina Ready </h1>
 <hr width= "3%" size="2.7" align="center" color="Blue">
 <p> Due to its responsiveness and Retina display support our template perfectly fits any modern device,from Pc to Smartphone </p>
-</div>
-
-<img src="F:\Template-1\Reference Img\landing-4.png" align="right" width = "45%" STYLE="padding:RIGHT" >
-<button name="Get Template" color="Red" value="Get Template"> Get Template </button>
-</DIV>
-</section>
-
+<button  name="Get Template"  value="Get Template"> Get Template </button></div>
+</td>
+<td align="center">
+<img src="F:\Template-1\Reference Img\landing-4.png"  width = "75%" STYLE="padding:RIGHT" >
+</td>
+</tr>
+</table>
+<br>
 <section>
 <div align="center" >
 <h1> Social Integration</h1>
@@ -108,15 +141,6 @@ Get Instant feedback from your visitors with social widgets that are built in th
 
 
 
-
-<style type="text/css">
-vertical-menu{
-width=200px;
-font=timesnewroman;
-font-color=Red;
-overflow-y: auto;
-}
-</style>
 
 
 
