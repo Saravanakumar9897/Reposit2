@@ -20,9 +20,12 @@ color: black;
 background-color: blue;
 
 }
+
+
 button{
-background-color:#FF69B4;
-size:50px;
+background-color:red;
+size:100px;
+color:white;
 border-style:none;
 }
 vertical-menu{
@@ -31,6 +34,21 @@ font=timesnewroman;
 font-color=Red;
 overflow-y: auto;
 }
+select{
+border:none;
+color:black;
+size:50px;
+}
+
+
+
+@img{
+id=zoom{
+position="absolute";
+}
+}
+
+
 
 </style>
 
@@ -44,14 +62,17 @@ overflow-y: auto;
 </DIV>
 <div class="vertical-menu" align="center" width=100 hspace="5">
 
-	<a href="#" class="active">Home</a>
-	<a href="#"> Elements </a>
-	<a href="#"> Pages </a>
-	<a href="#"> News </a>
-	<a href="#"> Campus </a>
-	<a href="#"> shop </a>
-	<a href="#"> Donate </a>
-	<a href="#"> Contact </a>
+	<select> <option><a href="#" class="active">Home</a></option>
+				<option> <a href="#" class="active">Home</a> </option>
+	</select>			
+	
+	<select><option><a href="#"> Elements </a></option></select>
+	<select><option><a href="#"> Pages </a></option></select>
+	<select><option><a href="#"> News </a></option></select>
+	<select><option><a href="#"> Campus </a></option></select>
+	<select><option><a href="#"> shop </a></option></select>
+	<select><option><a href="#"> Donate </a></option></select>
+	<select><option><a href="#"> Contact </a></option></select>
 
 
 </div>
@@ -76,10 +97,10 @@ overflow-y: auto;
 <h1 align="Center"> Check Out Other Themes </h1>
 <hr width= "3%" size="2.7" align="center" color="Blue">
 
-<div align = "center " width="200%">
-<img src="F:\Template-1\Reference Img\landing-1-550x420.jpg" height="250" width="350">
-<img src="F:\Template-1\Reference Img\landing-2-550x420.jpg" height="250" width="350">
-<img src="F:\Template-1\Reference Img\landing-3-550x420.jpg" height="250" width="350">
+<div align = "center " width="device-width">
+<img src="F:\Template-1\Reference Img\landing-1-550x420.jpg" height="300" width="435">
+<img src="F:\Template-1\Reference Img\landing-2-550x420.jpg" height="300" width="435">
+<img src="F:\Template-1\Reference Img\landing-3-550x420.jpg" height="300" width="435">
 
 </div>
 <br>
@@ -106,10 +127,10 @@ overflow-y: auto;
 
 <br>
 <br/>
+
+<div background-color="grey">
 <table><tr>
-
 <td align="center">
-
 <h1>Extremely Responsive and Retina Ready </h1>
 <hr width= "3%" size="2.7" align="center" color="Blue">
 <p> Due to its responsiveness and Retina display support our template perfectly fits any modern device,from Pc to Smartphone </p>
@@ -128,21 +149,28 @@ overflow-y: auto;
 <P>
 Get Instant feedback from your visitors with social widgets that are built in this template to provide the best possible user experience.
 </p>
-<img src="F:\Template-1\Reference Img\fb.png">
-<img src="F:\Template-1\Reference Img\twitter.png">
-<img src="F:\Template-1\Reference Img\google.png">
-<img src="F:\Template-1\Reference Img\ingstram.png">
+<img src="F:\Template-1\Reference Img\fb.png" link="www.facebook.com" >
+<img src="F:\Template-1\Reference Img\twitter.png" link="www.twitter.com">
+<img src="F:\Template-1\Reference Img\google.png" link="www.google.co.in">
+<img src="F:\Template-1\Reference Img\ingstram.png" link="www.instagram.com">
+
+
+ 
 </div>
 </section>
 
-
 <div align="center">
-<img src="F:\Template-1\Reference Img\parallax-05.jpg" size="50% " height="400" width="900" style="object-fit:zoom" ALT= "CONTACTUS">
+<img id="zoom" src="F:\Template-1\Reference Img\parallax-05.jpg" size="50% " align="center" height="400" width="900" style="clip:rect(0px,60px,200px,100px)" position="absolute" ALT= "CONTACTUS">
+</div>
+
+<br>
 
 
 
 
 
+
+</div>
 
 
 </BODY>
