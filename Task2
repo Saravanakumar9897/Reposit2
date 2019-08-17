@@ -4,20 +4,22 @@
 <title>
 Jonathan Carroll University
 </title>
+<link href="Documents/style.css" type="text/css" rel="stylesheet">
 
 <style type=text/css >
-igtransition{
+<!--igtransition{
 width:100px;
 height:100px;
 -webkit-transition: width 2s;
 transition:width 2s;
 display:img;
 
-}
+}-->
+
 a{
-size: 10px;
+size: 100%;
 color: black;
-background-color: blue;
+
 
 }
 
@@ -40,17 +42,45 @@ color:black;
 size:50px;
 }
 
+section-block{
+
+display: block;
+background-color:#f2f2f2;
+}
+
+section-flow{
+width: 1000%;
+height: 10%;
+
+}
+zpd{
+object-fit: cover;
+width: device-width;
+height: 400px;
+
+}
 
 
-@img{
+
+<!--@img{
 id=zoom{
 position="absolute";
 }
-}
+-->
 
 
 
 </style>
+<script type="text/javascript">
+$('.bxslider').bxslider({
+auto: true,
+autoControls: true,
+stopAutoOnClick: true,
+pager: true,
+slidewidth: 600
+});
+
+</script>
 
 
 </head>
@@ -62,6 +92,7 @@ position="absolute";
 </DIV>
 <div class="vertical-menu" align="center" width=100 hspace="5">
 
+	<section-flow>
 	<select> <option><a href="#" class="active">Home</a></option>
 				<option> <a href="#" class="active">Home</a> </option>
 	</select>			
@@ -73,23 +104,34 @@ position="absolute";
 	<select><option><a href="#"> shop </a></option></select>
 	<select><option><a href="#"> Donate </a></option></select>
 	<select><option><a href="#"> Contact </a></option></select>
-
+	</section-flow>
 
 </div>
 
 
-<igtransition>
+<!--<igtransition>
 <img src:"F:\Template-1\Reference Img\landing-1-550x420.jpg">
 <img src:"F:\Template-1\Reference Img\landing-2-550x420.jpg">
 
 </igtransition>
+-->
 
+<!--<div class="slide-container">
+	<div class="image-container">
+	<img src="F:\Template-1\Reference Img\slide-02-1920x810.jpg" class="slider-image">
+	<img src="F:\Template-1\Reference Img\slide-04-1920x810.jpg" class="slider-image">
+	<img src="F:\Template-1\Reference Img\slide-03-1920x810.jpg" class="slider-image">
+</div>
+</div>
+-->
 
+<div class="bxslider">
+	<div> <img src="F:\Template-1\Reference Img\slide-02-1920x810.jpg" > </div>
+	<div> <img src="F:\Template-1\Reference Img\slide-04-1920x810.jpg" > </div>
+	<div> <img src="F:\Template-1\Reference Img\slide-03-1920x810.jpg" > </div>
+</div>
 
-
-
-
-
+	
 
 
 
@@ -110,7 +152,7 @@ position="absolute";
 <td align="center">
 
 
-<img src="F:\Template-1\Reference Img\landing-3.png" align="left"  size="50%">
+<img src="F:\Template-1\Reference Img\landing-3.png" align="left" style="size:25%" width="-10" height="-15">
 </td> <td align="center">
 <H1> Home Layouts and Demos </h1>
 <hr width= "3%" size="2.7" align="center" color="Blue">
@@ -127,8 +169,8 @@ position="absolute";
 
 <br>
 <br/>
-
-<div background-color="grey">
+<section-block>
+<div background-color="#eff5f5">
 <table><tr>
 <td align="center">
 <h1>Extremely Responsive and Retina Ready </h1>
@@ -142,30 +184,43 @@ position="absolute";
 </tr>
 </table>
 <br>
-<section>
+<br/>
+<br>
+<br>
+<br/>
+
+
 <div align="center" >
 <h1> Social Integration</h1>
 <hr width= "3%" size="2.7" align="CENTER" color="Blue">
 <P>
 Get Instant feedback from your visitors with social widgets that are built in this template to provide the best possible user experience.
 </p>
-<img src="F:\Template-1\Reference Img\fb.png" link="www.facebook.com" >
-<img src="F:\Template-1\Reference Img\twitter.png" link="www.twitter.com">
-<img src="F:\Template-1\Reference Img\google.png" link="www.google.co.in">
-<img src="F:\Template-1\Reference Img\ingstram.png" link="www.instagram.com">
+<img src="F:\Template-1\Reference Img\fb.png"  >
+<img src="F:\Template-1\Reference Img\twitter.png" >
+<img src="F:\Template-1\Reference Img\google.png" >
+<img src="F:\Template-1\Reference Img\ingstram.png" >
 
 
  
 </div>
-</section>
+
+<br>
+<br/>
+<br>
+<br>
 
 <div align="center">
-<img id="zoom" src="F:\Template-1\Reference Img\parallax-05.jpg" size="50% " align="center" height="400" width="900" style="clip:rect(0px,60px,200px,100px)" position="absolute" ALT= "CONTACTUS">
+<img  src="F:\Template-1\Reference Img\parallax-05.jpg" size="50% " align="center" height="400" width="900" style="clip:rect(0px,60px,200px,100px)" position="absolute" ALT= "CONTACTUS">
 </div>
 
 <br>
-
-
+<!--
+<zpd>
+<img src="F:\Template-1\Reference Img\parallax-05.jpg">
+</zpd>
+-->
+</section-block>
 
 
 
